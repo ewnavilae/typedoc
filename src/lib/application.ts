@@ -359,7 +359,7 @@ export class Application extends ChildableComponent<
         const errors = flatMap([...programs], ts.getPreEmitDiagnostics);
         if (errors.length) {
             this.logger.diagnostics(errors);
-            return;
+            // return;
         }
 
         if (this.options.getValue("emit")) {
