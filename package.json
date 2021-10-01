@@ -27,7 +27,7 @@
     "minimatch": "^3.0.0",
     "progress": "^2.0.3",
     "shiki": "^0.9.3",
-    "typedoc-default-themes": "https://github.com/ewnavilae/typedoc-default-themes"
+    "typedoc-default-themes": "git+https://github.com/ewnavilae/typedoc-default-themes.git"
   },
   "peerDependencies": {
     "typescript": "4.0.x || 4.1.x || 4.2.x || 4.3.x"
